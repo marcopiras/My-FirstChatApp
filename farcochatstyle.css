@@ -1,0 +1,125 @@
+body {
+    background:#2c3e50;
+    font:16px monospace;
+    color: #ecf0f1;
+    text-align:center;
+    padding:35px; }
+
+#shell {
+    margin:5px auto;
+    padding-bottom:15px;
+    background:#34495e;
+    min-height:595px;
+    max-height:650px;
+    max-width:1004px;
+    border:1px solid #34495e; 
+    border-radius: 25px;    
+    }
+
+#top { padding:12.5px 25px 12.5px 25px; }
+  
+p {
+    margin:0;
+    padding:0;
+    float:left; 
+    font:20px monospace
+}
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:10px;
+    padding:12px;
+    background:#fff;
+    height:470px;
+    max-width:90%;
+    border:1px solid #ACD8F0;
+    border-radius: 25px;
+    }
+
+.msg_body{
+    height: 470px;
+    max-width:904px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+  
+.msg_a{
+    position:relative;
+    background:#e74c3c;
+    padding:10px;
+    min-height:10px;
+    margin-bottom:5px;
+    margin-left:10px;
+    border-radius:5px;
+}
+
+.msg_a:before{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: transparent #e74c3c transparent transparent;
+    left:-20px;
+    top:7px;
+}
+
+.msg_b{
+    background:#2980b9;
+    padding:10px;
+    min-height:15px;
+    margin-bottom:5px;
+    position:relative;
+    margin-right:10px;
+    border-radius:5px;
+    word-wrap: break-word;
+}
+
+.msg_b:after{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: transparent transparent transparent #2980b9;
+    right:-20px;
+    top:7px;
+}
+
+#message-form {
+    max-width: 100%;
+    padding: 5px;
+}
+
+input { 
+    font:16px monospace;
+    margin:0 auto;
+    }
+
+#incipit {
+    max-width: 20%;
+    display: inline-block;
+    padding: 5px;
+}
+
+#usermsg {
+    height: 30px;
+    margin:0 auto;
+    max-width:70%;
+    border:0.5px solid #ACD8F0;
+    font:16px monospace;
+    border-radius: 20px;
+    padding: 5px;
+    }
+  
+#submitmsg { 
+    height: 30px;
+    max-width: 10%; 
+    background: #e67e22;
+    font: 16px monospace;
+    color: #ecf0f1;
+    border: 1px #e67e22;
+    border-radius: 20px;
+    padding: 5px;
+}
